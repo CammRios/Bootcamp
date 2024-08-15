@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "quicksand", sans-serif;
+}
+
+#logo {
+    background-color: #00D1B2;
+    border-radius: 5%;
+}
+
+#cart {
+    width: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header ul {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
+    border-bottom: 3px solid black;
+}
+
+nav h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#buscador{
+    width: 500px;
+    height: 40px;
+    border-radius:20px;
+    outline: 3px solid black;
+    text-align: center;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50px;
+    left: 72%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section{
+    display: flex;
+}
+
+.mainContent{
+    display: flex;
+    margin: 0 10px;
+    background-color: #00D1B2;
+    margin-bottom: 20px;
+}
+
+article {
+    color: white;
+    margin: 0 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+article a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.aside {
+    width: 350px;
+}
+
+#aloe1 {
+    margin-bottom: 5px;
+}
+
+.aloe{
+    margin-top: 5px;
+    background-color: #00D1B2;
+    height: 90px;
+    display:flex;
+    align-items: center;
+}
+
+.link{
+    display:flex;
+    align-items: center;
+}
+
+.images {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #AAE8D8;
+}
+
+.img_container {
+    text-align: center; 
+}
+
+.img_container img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.cookie {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid black;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cookie img {
+    margin-right: 15px;
+}
+
+footer button {
+    color: white;
+    padding: 5px 10px;
+    background-color: #00D1B2;
+    border:  3px solid black;
+    width: 150px;
+    -webkit-box-shadow: 5px 5px 1px 0px #000000; 
+    box-shadow: 5px 5px 1px 0px #000000;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Dojo Weather</h1>
+            <ul>
+                <li><a href="#" onclick="alerta(this)">Garin</a></li>
+                <li><a href="#" onclick="alerta(this)">Berlin</a></li>
+                <li><a href="#" onclick="alerta(this)">Dubai</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="san-jose">
+            <h2 id="city">San José</h2>
+            <form>
+                <label>show temperature in:</label>
+                <select>
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </section>
+        <div class="semana">
+            <article>
+                <h3>Today</h3>
+                <img src="img/assets/some_rain.png" alt="algo de lluvia" >
+                <p>some rain</p>
+                <div class="temperaturas">
+                    <span class="max">24°</span>
+                    <span class="min">18°</span>
+                </div>
+            </article>
+            <article>
+                <h3>Tomorrow</h3>
+                <img src="img/assets/some_sun.png" alt="algo de lluvia" >
+                <p>some sun</p>
+                <div class="temperaturas">
+                    <span class="max">27°</span>
+                    <span class="min">19°</span>
+                </div>
+            </article>
+            <article>
+                <h3>Friday</h3>
+                <img src="img/assets/some_clouds.png" alt="algo de lluvia" >
+                <p>some clouds</p>
+                <div class="temperaturas">
+                    <span class="max">21°</span>
+                    <span class="min">16°</span>
+                </div>
+            </article>
+            <article>
+                <h3>Saturday</h3>
+                <img src="img/assets/some_sun.png" alt="algo de lluvia" >
+                <p>some sun</p>
+                <div class="temperaturas">
+                    <span class="max">26°</span>
+                    <span class="min">21°</span>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="cookie">
+            <img src="img/assets/cookie.png" alt="cookie">
+            <div>
+                <h4>Stop! Cookie Time</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti beatae culpa, obcaecati hic sunt accusantium quo harum similique? Consequatur ab porro neque quibusdam placeat! Odio rem ad asperiores aut eos.
+                </p>
+            </div>
+            <button onclick="delete_cookies()">I Agree</button>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
